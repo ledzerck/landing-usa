@@ -1,0 +1,272 @@
+/* GENERALES */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    color: #666;
+}
+h1, h2, h3 ,h4 ,h5 ,h6, .sueldo {
+    color: #000;
+}
+
+.hackeranda {
+    color: #8c72ff;
+}
+
+.handwrite {
+    font-family: 'Caveat', cursive;
+    font-size: 1.3em;
+}
+
+.hack-gradient-01 {
+    background: linear-gradient(152deg, rgba(140,114,255,1) 0%, rgba(179,22,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hack-gradient-02 {
+    background: linear-gradient(152deg, rgba(0,255,255,1) 0%, rgba(143,55,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hack-gradient-03 {
+    background: linear-gradient(152deg, rgba(55,207,255,1) 0%, rgba(97,207,45,1) 50%, rgba(0,220,141,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hack-gradient-04 {
+    background: linear-gradient(152deg, rgba(255,138,0,1) 0%, rgba(143,55,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hack-gradient-05 {
+    background: linear-gradient(152deg, rgba(179,255,55,1) 0%, rgba(220,0,198,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+/* BOTONES */
+
+.btn.almes {
+    background-color: #dd005a;
+    font-size: 16px;
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.btn.registro {
+     background-color: transparent;
+     font-size: 16px;
+     padding: 5px 20px;
+     color: #fff;
+     border-radius: 40px;
+ }
+ .btn.registro:hover {
+    background-color: #8c72ff;
+    border-color: #8c72ff;
+}
+
+/* HEADER */
+#header {
+    background-color:#11111e;
+}
+
+/* SHOWCASE */
+
+#showcase {
+    background-color: #11111e;
+    color: #fff;
+}
+
+
+#showcase h1 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+#showcase p {
+    font-size: 14px;
+}
+
+#showcase .handwrite {
+    font-size: 90px;
+    background: linear-gradient(152deg, rgba(140,114,255,1) 0%, rgba(179,22,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
+}
+
+
+
+/* EMPRESAS */
+
+#empresas {
+    background-color: #11111e;
+}
+
+.products-ribons {
+    overflow: hidden;
+}
+
+.products-ribons .move-left {
+    -webkit-animation: moveleft 120s linear infinite;
+    animation: moveleft 120s linear infinite;
+}
+
+.products-ribons img {
+    margin: 6px 0px;
+    height: 47px;
+}
+
+@-webkit-keyframes moveleft {
+    0% {
+        transform: translate3d(0, 0, 0)
+    }
+
+    100% {
+        transform: translate3d(-7500px, 0, 0)
+    }
+}
+
+@keyframes moveleft {
+    0% {
+        transform: translate3d(0, 0, 0)
+    }
+
+    100% {
+        transform: translate3d(-7500px, 0, 0)
+    }
+}
+
+
+/* PROGRAMA */
+
+#programa {
+    background-color: #11111e;
+}
+
+.programa-inner {
+    background: rgb(215,118,255);
+    background: linear-gradient(152deg, rgba(215,118,255,1) 0%, rgba(125,22,255,1) 100%);
+}
+
+
+/* VIDEOS */
+
+#videos {
+    background-color: #11111e;
+}
+
+/* OTROS */
+
+#otros {
+    background-color: #11111e;
+}
+
+.otro-inner {
+    background-color: #383851;
+    color: #fff;
+}
+
+/* PREMIOS */
+
+#premios {
+    background-color: #11111e;
+}
+
+#premios .award {
+    font-size: 12px;
+}
+
+#premios .award img {
+    height: 30px;
+}
+
+
+/* GARANTIA */
+#garantia {
+    background-color: #11111e;
+    color: #fff;
+}
+
+#garantia th {
+    color: #FFFFFF;
+}
+
+#garantia .border-bottom {
+    border-bottom: solid 1px #3e3e52 !important;
+}
+
+.garantia-inner {
+    background-color: #242433;
+}
+
+.comparativa .ventaja {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.comparativa .ventaja-b {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.comparativa .descripcion {
+    color: #FFFFFF;
+}
+
+
+/* LOGROS */
+
+#logros {
+    background-color: #11111e;
+    color: #FFFFFF;
+}
+
+#logros .cantidad {
+    font-size: 80px;
+    color: #dd005a;
+    font-weight: 900;
+    line-height: 80px;
+}
+
+/* DUDAS */
+
+#dudas {
+    background-color: #11111e;
+}
+.dudas-inner {
+    background-color: #8F37FF;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+#footer {
+    font-size: 12px;
+    background-color: #0c0c0c;
+    color: #7a7a7a;
+}
+
+
