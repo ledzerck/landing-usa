@@ -54,7 +54,7 @@ h1, h2, h3 ,h4 ,h5 ,h6, .sueldo {
 /* BOTONES */
 
 .btn.almes {
-    background-color: #dd005a;
+    background-color: #8F37FF;
     font-size: 16px;
     padding: 5px 20px;
     color: #fff;
@@ -62,9 +62,10 @@ h1, h2, h3 ,h4 ,h5 ,h6, .sueldo {
 }
 
 .btn.registro {
-     background-color: transparent;
+     background-color: #dd005a;
+     border-color: #dd005a;
      font-size: 16px;
-     padding: 5px 20px;
+     padding: 8px 20px;
      color: #fff;
      border-radius: 40px;
  }
@@ -83,6 +84,10 @@ h1, h2, h3 ,h4 ,h5 ,h6, .sueldo {
 #showcase {
     background-color: #11111e;
     color: #fff;
+    background-image: url('../imgs/back-2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
 }
 
 
@@ -155,6 +160,7 @@ h1, h2, h3 ,h4 ,h5 ,h6, .sueldo {
 .programa-inner {
     background: rgb(215,118,255);
     background: linear-gradient(152deg, rgba(215,118,255,1) 0%, rgba(125,22,255,1) 100%);
+    margin-top: -100px;
 }
 
 
@@ -181,17 +187,20 @@ h1, h2, h3 ,h4 ,h5 ,h6, .sueldo {
 
 /* PREMIOS */
 
-#premios {
-    background-color: #11111e;
-}
 
-#premios .award {
-    font-size: 12px;
+#premios .award p {
+    font-size: 11px;
 }
 
 #premios .award img {
     height: 30px;
 }
+
+/* EMPRESAS */
+#empresas {
+    background-color: #11111e;
+}
+
 
 
 /* GARANTIA */
