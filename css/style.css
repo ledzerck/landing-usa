@@ -172,6 +172,22 @@ h1, h2, h3 ,h4 ,h5 ,h6, .sueldo {
     background-color: #11111e;
 }
 
+/* GANAR */
+
+#ganar {
+    background-color: #11111e;
+}
+.ganar-inner {
+    background-color: #242433;
+    color: #FFFFFF;
+}
+
+.salario {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
 /* OTROS */
 
 #otros {
