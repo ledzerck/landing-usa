@@ -76,7 +76,8 @@ h1, h2, h3 ,h4 ,h5 ,h6, .sueldo {
 
 /* HEADER */
 #header {
-    background-color:#11111e;
+    position: absolute;
+    width: 100%;
 }
 
 /* SHOWCASE */
@@ -88,6 +89,7 @@ h1, h2, h3 ,h4 ,h5 ,h6, .sueldo {
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
+    padding-top: 50px;
 }
 
 
